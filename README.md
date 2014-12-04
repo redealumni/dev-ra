@@ -18,6 +18,8 @@ hosting by Github Pages
 
 Edite o arquivo gerado no diretório `source/_posts`.
 
+Então execute `hexo generate` para gerar as páginas estáticas.
+
 #### Publique
 Commit & Push
 
