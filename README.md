@@ -1,4 +1,6 @@
-dev-ra
+[ Dev RA! ]
 ======
 
-#provisory
+Blog da RA Provisório
+
+Powered with HexoJS
