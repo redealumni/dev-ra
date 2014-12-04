@@ -60,7 +60,7 @@ tag: 2
 ## http://www.senchalabs.org/connect/logger.html
 port: 4000
 server_ip: localhost
-logger: true
+logger: false
 logger_format: dev
 
 # Date / Time format

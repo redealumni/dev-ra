@@ -1,11 +1,11 @@
 [ Dev RA! ]
 ======
 
-Blog da RA Provisório
+Blog do Time de Desenvolvimento da RA (Provisório)
 
 Powered with [HexoJS](https://github.com/hexojs/hexo)
 
-hosting by Github Pages
+and hosting by Github Pages
 
 #### Instale o Hexo
 `npm install hexo -g`
@@ -33,4 +33,4 @@ então...
 
 `hexo deploy -g`
 
-Leve um tempo para o github pages atualizar a página.
+Pode levar um tempo para o github pages atualizar a página.
