@@ -1,7 +1,7 @@
 # config
-cover: /img/cover.png
-icon: /img/icon.png
-logo: /img/logo-redealumni.png
+cover: /dev-ra/img/cover.png
+icon: /dev-ra/img/icon.png
+logo: /dev-ra/img/logo-redealumni.png
 bio: 'Desenvolvedor RedeAlumni'
 
 # Content
