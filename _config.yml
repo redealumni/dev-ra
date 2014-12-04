@@ -83,6 +83,10 @@ disqus_shortname: redealumni-blog
 theme: casper
 exclude_generator:
 
+# Sitemap
+sitemap:
+  path: sitemap.xml
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
