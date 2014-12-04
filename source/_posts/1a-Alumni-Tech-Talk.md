@@ -18,4 +18,7 @@ por [@roginn](http://github.com/roginn)
 ##### Rspec
 por [@thiagobrandam](http://github.com/thiagobrandam)
 
-Todos convocados!
+
+{% emoji-block 32 %}
+    Todos convocados! :metal:
+{% endemoji-block  %}

@@ -11,14 +11,18 @@ hosting by Github Pages
 `npm install hexo -g`
 
 #### Setup
+Clone 
 `git clone git@github.com/dev-ra.git`
+
+`npm install`
+
+Subir o servidor local
+`hexo server` na porta 4000.
 
 #### Criar novo post
 `hexo new "Novo post"`
 
 Edite o arquivo gerado no diretório `source/_posts`.
-
-Então execute `hexo generate` para gerar as páginas estáticas.
 
 #### Publique
 Commit & Push
@@ -27,6 +31,6 @@ Commit & Push
 
 então...
 
-`hexo deploy`
+`hexo deploy -g`
 
 Leve um tempo para o github pages atualizar a página.

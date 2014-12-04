@@ -564,6 +564,11 @@ margin on the iframe, cause it breaks stuff. */
     height: auto;
 }
 
+.post-content .emoji {
+    display: initial;
+    margin: 0;
+}
+
 /* The author credit area after the post */
 .post-footer {
     position: relative;

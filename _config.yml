@@ -87,8 +87,16 @@ exclude_generator:
 sitemap:
   path: sitemap.xml
 
+# Plugins
+plugins:
+  - hexo-tag-emojis
+
+# hexo-tag-emojis plugin configuration
+emojis:
+  image_dir: images/emojis
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: github
-  repo: git@github.com:krawdyah/dev-ra.git
+  repo: https://github.com/krawdyah/dev-ra.git
