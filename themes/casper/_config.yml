@@ -1,0 +1,11 @@
+# config
+cover: /img/cover.png
+icon: /img/icon.png
+logo: /img/logo-redealumni.png
+bio: 'Desenvolvedor RedeAlumni'
+
+# Content
+excerpt_link: Continue lendo...
+
+# Miscellaneous
+rss:
