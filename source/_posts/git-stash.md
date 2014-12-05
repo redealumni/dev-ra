@@ -1,6 +1,6 @@
 title: "[Dev-Tips] git stash"
 date: 2014-12-05 00:01:04
-tags: git
+tags: [git, tips]
 author: Claudia Farias
 bio: 'Meu escritório é na praia.'
 github: http://github.com/krawdyah
