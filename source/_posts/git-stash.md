@@ -9,7 +9,7 @@ twitter: http://twitter.com/krawdyah
 
 Você está codando de boa em uma nova super feature e surge um bugs que precisa de um hotfix pra já. Ou você simplemente precisa trocar de branch por qualquer motivo. Não rola commitar tudo que você já alterou, é um canteiro de obras, vai quebrar.
 
-A boa é de rola salvar suas alterações como rascunho temporariamente e recuperar essas alterações a qualquer momento. Sério!
+A boa é que rola "salvar suas alterações como rascunho" temporariamente e recuperar essas alterações a qualquer momento. Sério!
 
 Segue o fluxo:
 
