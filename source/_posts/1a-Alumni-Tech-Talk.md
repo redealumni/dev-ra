@@ -11,7 +11,7 @@ por [@pufe](http://github.com/pufe)
 ##### Git Tips
 por [@roginn](http://github.com/roginn)
 
-##### Rspec Basics
+##### Testes de Unidade com RSpec
 por [@thiagobrandam](http://github.com/thiagobrandam)
 
 
