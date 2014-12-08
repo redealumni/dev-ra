@@ -5,7 +5,7 @@ tags: [talk]
 
 Nossa primeira Alumni Teck Talk está marcada para o dia 08/12. Serão três lightning talks.
 
-##### Asterisk
+##### Asterisk (Cancelado)
 por [@pufe](http://github.com/pufe)
 
 ##### Git Tips
