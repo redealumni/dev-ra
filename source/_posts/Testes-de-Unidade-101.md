@@ -1,6 +1,6 @@
-title: [TechTalk] Testes de Unidade 101
-date: 2014-12-08 23:14:08
-tags: [teste rspec]
+title: "[TechTalk] Testes de Unidade 101"
+date: 2014-12-09 01:06:08
+tags: [teste, rspec]
 author: Thiago Brandão
 github: http://github.com/thiagobrandam
 ---
