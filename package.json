@@ -5,9 +5,9 @@
   "dependencies": {
     "connect": "2.x",
     "hexo-generator-sitemap": "^0.2.0",
-    "hexo-renderer-ejs": "*",
-    "hexo-renderer-marked": "*",
-    "hexo-renderer-stylus": "*",
+    "hexo-renderer-ejs": "^0.1.0",
+    "hexo-renderer-marked": "^0.1.0",
+    "hexo-renderer-stylus": "^0.1.0",
     "hexo-tag-emojis": "^1.1.2"
   }
 }
