@@ -11,10 +11,10 @@ Tô postando aqui o material da minha TechTalk de ontem!
 Espero que vocês tenham gostado e desculpem se me alonguei
 no assunto ou pareci prolixo. Queria passar o básico de informações mas o assunto pede uma certa qualidade na discussão, o que não dá para fazer em 20 minutinhos.
 
-Baixem [aqui](https://redealumnidevs.s3.amazonaws.com/unit-test-with-rspec.pdf) o PDF com a apresentação.
+Baixem [aqui](https://redealumnidevs.s3.amazonaws.com/unit-test-with-rspec.pdf) a versão em PDF dos meus slides.
 
 Como disse na minha apresentação, procurei me fundamentar numa
-talk que a Sandi Metz deu na Rails Conf de Portland em 2013, _Magic Tricks of Testing_. Segue abaixo o vídeo original do youtube (recomendo fortemente, minha apresentação foi basicamente um da apresentação dela).
+talk que a Sandi Metz deu na Rails Conf de Portland em 2013, _Magic Tricks of Testing_. Segue abaixo o vídeo original do youtube. Recomendo fortemente assistir ao vídeo, minha talk foi basicamente um _ripoff_ dela. _standing on the shoulders of giants_ :).
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/URSWYvyc42M" frameborder="0" allowfullscreen></iframe>
 
