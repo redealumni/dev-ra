@@ -5,7 +5,7 @@ author: Thiago Brandão
 github: http://github.com/thiagobrandam
 ---
 
-Pessoal, mais uma talk com o assunto de testes! Na verdade, essa foi uma de uma série de talks que eu quero fazer para que nosso time ganhe o hábito de sempre codar com specs de maneira consistente, e que sejam legíveis e fáceis de gerenciar.
+Pessoal, mais uma talk com o assunto de testes! Na verdade, essa foi uma de uma série de talks que eu quero fazer para que nosso time ganhe o hábito de sempre codar com specs que sejam legíveis e fáceis de gerenciar, de maneira consistente .
 
 Obviamente, o objetivo maior é deixar nossa suíte de testes tinindo, o que está longe da realidade. Se alcançarmos um nível decente de cobertura de testes (e como decente quero dizer cobrindo no mínimo as entidades _core_ do negócio), não só estaremos documentando nosso projeto mas também passaremos a ter mais confiança em adicionar / modificar _features_.
 
@@ -13,7 +13,7 @@ Nessa talk eu me concentrei em explicar o básico do RSpec e sugeri alguns guide
 
 Baixem [aqui](https://s3.amazonaws.com/redealumnidevs/testing-with-rspec-parte-i.pdf) a versão em PDF dos meus slides.
 
-Na próxima talk pretendo ir mais a fundo em testes de models e cobrir um pouco o mocks, stubs e spies. Até lá, familiarizem-se com o framework e escrevam suas specs seguindo os guidelines sugeridos na apresentação.
+Na próxima talk pretendo ir mais a fundo em testes de models e cobrir um pouco o assunto de mocks, stubs e spies. Até lá, familiarizem-se com o framework e escrevam suas specs seguindo os guidelines sugeridos na apresentação.
 
 _For the lazy_:
 
