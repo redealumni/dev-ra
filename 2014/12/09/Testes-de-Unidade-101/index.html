@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <title>[Dev-Tips] where.not | [ Dev RA! ]</title>
+  <title>[TechTalk] Testes de Unidade 101 | [ Dev RA! ]</title>
   <meta name="description" content="Blog do time de Desenvolvimento da RedeAlumni" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="MobileOptimized" content="320" />
@@ -50,54 +50,54 @@
 <main class="content" role="main">
   <article class="post">
     <span class="post-meta">
-  <time datetime="2014-12-08T05:14:12.000Z" itemprop="datePublished">
-    8 dezembro 2014
+  <time datetime="2014-12-09T03:06:08.000Z" itemprop="datePublished">
+    9 dezembro 2014
   </time>
   
   
   | 
-  <a href='/dev-ra/tags/rails/'>rails</a>,
+  <a href='/dev-ra/tags/teste/'>teste</a>,
   
-  <a href='/dev-ra/tags/activerecord/'>activerecord</a>,
-  
-  <a href='/dev-ra/tags/tips/'>tips</a>
+  <a href='/dev-ra/tags/rspec/'>rspec</a>
   
   
 </span>
-    <h1 class="post-title">[Dev-Tips] where.not</h1>
+    <h1 class="post-title">[TechTalk] Testes de Unidade 101</h1>
     <section class="post-content">
-      <p>Geralmente, trabalhando com Rails, quando precisamos fazer uma consulta que retorne os registros com valores diferentes de um dado específico, fazemos a seguinte query:</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Article.<span class="keyword">where</span>(<span class="comment">'status <span class="xmlDocTag">&lt;&gt;</span> draft')</span></div></pre></td></tr></table></figure>
+      <p>Olá pessoal,</p>
+<p>Tô postando aqui o material da minha TechTalk de ontem!<br>Espero que vocês tenham gostado e desculpem se me alonguei<br>no assunto ou pareci prolixo. Queria passar o básico de informações mas o assunto pede uma certa qualidade na discussão, o que não dá para fazer em 20 minutinhos.</p>
+<p>Baixem <a href="https://redealumnidevs.s3.amazonaws.com/unit-test-with-rspec.pdf" target="_blank" rel="external">aqui</a> a versão em PDF dos meus slides.</p>
+<p>Como disse na minha apresentação, procurei me fundamentar numa<br>talk que a Sandi Metz deu na Rails Conf de Portland em 2013, <em>Magic Tricks of Testing</em>. Segue abaixo o vídeo original do youtube. Recomendo fortemente assistir ao vídeo, minha talk foi basicamente um <em>ripoff</em> dela. <em>standing on the shoulders of giants</em> :).</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/URSWYvyc42M" frameborder="0" allowfullscreen></iframe>
 
-<p>Outra forma de fazer a mesma consulta é utilizando o <code>where.not</code> do ActiveRecord.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Article.<span class="keyword">where</span>.<span class="keyword">not</span>(status: <span class="comment">'draft')</span></div></pre></td></tr></table></figure>
-
-<p><a href="http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods/WhereChain.html#method-i-not" target="_blank" rel="external">api</a></p>
+<p>Para quem não conhece a Sandi Metz, ela é uma Railer experiente e uma excelente talker. Recentemente escreveu um livro muito legal de design em Orientação a Objetos, o <em>Practical Object Oriented Design in Ruby</em>. Um ótimo livro para quem deseja se livrar daquele código POGueiro através de um bom design, mas não tem muita referência no assunto (principalmente em Ruby). Well, now you’ve got it.</p>
+<p>Você pode acessar esse livro por qualquer Kindle da empresa.</p>
+<p>Bônus:</p>
+<p>Vídeo da Railer Katrina Owen, <em>467 tests, 0 failures, 0 confidence</em>. Ela aplica a matriz de testes de unidade da Sandi em um projeto open-source.</p>
+<p><iframe src="//player.vimeo.com/video/68730418" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe> </p><p><a href="http://vimeo.com/68730418" target="_blank" rel="external">Katrina Owen - 467 tests, 0 failures, 0 confidence - Railsberry 2013</a> from <a href="http://vimeo.com/railsberryconf" target="_blank" rel="external">Railsberry</a> on <a href="https://vimeo.com" target="_blank" rel="external">Vimeo</a>.</p><p></p>
 
     </section>
     <footer class="post-footer">
       <section class="author">
-  <h4>Claudia Farias</h4>
-  <p>Meu escritório é na praia.</p>
+  <h4>Thiago Brandão</h4>
+  <p>Desenvolvedor RedeAlumni</p>
   
-    <a href='http://github.com/krawdyah' title='GitHub Profile'><img src='/dev-ra/img/github.png'></a>
+    <a href='http://github.com/thiagobrandam' title='GitHub Profile'><img src='/dev-ra/img/github.png'></a>
   
   
-  
-    <a href='http://twitter.com/krawdyah' title='Twitter Profile'><img src='/dev-ra/img/twitter.png'></a>
   
 </section>
       <section class="share">
     <h4>Compartilhar</h4>
-    <a class="icon-twitter" href="http://twitter.com/share?url=http://redealumni.github.io/dev-ra/2014/12/08/where-not/"
+    <a class="icon-twitter" href="http://twitter.com/share?url=http://redealumni.github.io/dev-ra/2014/12/09/Testes-de-Unidade-101/"
        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
         <span class="hidden">Twitter</span>
     </a>
-    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://redealumni.github.io/dev-ra/2014/12/08/where-not/"
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://redealumni.github.io/dev-ra/2014/12/09/Testes-de-Unidade-101/"
        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
         <span class="hidden">Facebook</span>
     </a>
-    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://redealumni.github.io/dev-ra/2014/12/08/where-not/"
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://redealumni.github.io/dev-ra/2014/12/09/Testes-de-Unidade-101/"
        onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
         <span class="hidden">Google+</span>
     </a>
@@ -106,14 +106,14 @@
   </article>
   <nav class="pagination" role="pagination">
     
-    <a class="newer-posts" href="/dev-ra/2014/12/09/Testes-de-Unidade-101/">
-        ← [TechTalk] Testes de Unidade 101
+    <a class="newer-posts" href="/dev-ra/2015/05/08/Testando-com-RSpec-Parte-I/">
+        ← [TechTalk] Testando com RSpec 3.2 - Parte I
     </a>
     
     <span class="page-number">•</span>
     
-    <a class="older-posts" href="/dev-ra/2014/12/05/git-stash/">
-        [Dev-Tips] git stash →
+    <a class="older-posts" href="/dev-ra/2014/12/08/where-not/">
+        [Dev-Tips] where.not →
     </a>
     
 </nav>

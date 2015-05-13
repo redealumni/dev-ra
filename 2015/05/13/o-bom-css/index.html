@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <title>[Dev-Tips] where.not | [ Dev RA! ]</title>
+  <title>[TechTalk] O Bom CSS | [ Dev RA! ]</title>
   <meta name="description" content="Blog do time de Desenvolvimento da RedeAlumni" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="MobileOptimized" content="320" />
@@ -50,29 +50,23 @@
 <main class="content" role="main">
   <article class="post">
     <span class="post-meta">
-  <time datetime="2014-12-08T05:14:12.000Z" itemprop="datePublished">
-    8 dezembro 2014
+  <time datetime="2015-05-13T22:27:03.000Z" itemprop="datePublished">
+    13 maio 2015
   </time>
   
   
   | 
-  <a href='/dev-ra/tags/rails/'>rails</a>,
-  
-  <a href='/dev-ra/tags/activerecord/'>activerecord</a>,
-  
-  <a href='/dev-ra/tags/tips/'>tips</a>
+  <a href='/dev-ra/tags/css/'>css</a>
   
   
 </span>
-    <h1 class="post-title">[Dev-Tips] where.not</h1>
+    <h1 class="post-title">[TechTalk] O Bom CSS</h1>
     <section class="post-content">
-      <p>Geralmente, trabalhando com Rails, quando precisamos fazer uma consulta que retorne os registros com valores diferentes de um dado específico, fazemos a seguinte query:</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Article.<span class="keyword">where</span>(<span class="comment">'status <span class="xmlDocTag">&lt;&gt;</span> draft')</span></div></pre></td></tr></table></figure>
-
-<p>Outra forma de fazer a mesma consulta é utilizando o <code>where.not</code> do ActiveRecord.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Article.<span class="keyword">where</span>.<span class="keyword">not</span>(status: <span class="comment">'draft')</span></div></pre></td></tr></table></figure>
-
-<p><a href="http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods/WhereChain.html#method-i-not" target="_blank" rel="external">api</a></p>
+      <p>Seguindo a trilha de boas práticas, esta semana revisamos nosso CSS para identicarmos vícios, definir convenções e incluir boas práticas de escrita de folhas de estilo. </p>
+<p>O guideline ficou assim:<br><a href="https://gist.github.com/krawdyah/7d983264a216c86258cd" target="_blank" rel="external">gist</a></p>
+<p>Apresentação aqui:<br><a href="https://dl.dropboxusercontent.com/u/15048150/bom_css.pdf" target="_blank" rel="external">pdf</a></p>
+<p>É importante debater essas práticas, não apenas de CSS e Testes, mas em todos os aspectos do desenvolvimento, manter o time alinhado e agilizar o desenvolvimento.</p>
+<p>Comentários abertos.</p>
 
     </section>
     <footer class="post-footer">
@@ -89,15 +83,15 @@
 </section>
       <section class="share">
     <h4>Compartilhar</h4>
-    <a class="icon-twitter" href="http://twitter.com/share?url=http://redealumni.github.io/dev-ra/2014/12/08/where-not/"
+    <a class="icon-twitter" href="http://twitter.com/share?url=http://redealumni.github.io/dev-ra/2015/05/13/o-bom-css/"
        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
         <span class="hidden">Twitter</span>
     </a>
-    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://redealumni.github.io/dev-ra/2014/12/08/where-not/"
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://redealumni.github.io/dev-ra/2015/05/13/o-bom-css/"
        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
         <span class="hidden">Facebook</span>
     </a>
-    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://redealumni.github.io/dev-ra/2014/12/08/where-not/"
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://redealumni.github.io/dev-ra/2015/05/13/o-bom-css/"
        onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
         <span class="hidden">Google+</span>
     </a>
@@ -106,14 +100,10 @@
   </article>
   <nav class="pagination" role="pagination">
     
-    <a class="newer-posts" href="/dev-ra/2014/12/09/Testes-de-Unidade-101/">
-        ← [TechTalk] Testes de Unidade 101
-    </a>
-    
     <span class="page-number">•</span>
     
-    <a class="older-posts" href="/dev-ra/2014/12/05/git-stash/">
-        [Dev-Tips] git stash →
+    <a class="older-posts" href="/dev-ra/2015/05/08/Testando-com-RSpec-Parte-I/">
+        [TechTalk] Testando com RSpec 3.2 - Parte I →
     </a>
     
 </nav>

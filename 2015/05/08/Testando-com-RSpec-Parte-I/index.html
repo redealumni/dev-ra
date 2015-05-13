@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <title>[Dev-Tips] where.not | [ Dev RA! ]</title>
+  <title>[TechTalk] Testando com RSpec 3.2 - Parte I | [ Dev RA! ]</title>
   <meta name="description" content="Blog do time de Desenvolvimento da RedeAlumni" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="MobileOptimized" content="320" />
@@ -50,54 +50,66 @@
 <main class="content" role="main">
   <article class="post">
     <span class="post-meta">
-  <time datetime="2014-12-08T05:14:12.000Z" itemprop="datePublished">
-    8 dezembro 2014
+  <time datetime="2015-05-08T19:39:18.000Z" itemprop="datePublished">
+    8 maio 2015
   </time>
   
   
   | 
-  <a href='/dev-ra/tags/rails/'>rails</a>,
+  <a href='/dev-ra/tags/teste/'>teste</a>,
   
-  <a href='/dev-ra/tags/activerecord/'>activerecord</a>,
-  
-  <a href='/dev-ra/tags/tips/'>tips</a>
+  <a href='/dev-ra/tags/rspec/'>rspec</a>
   
   
 </span>
-    <h1 class="post-title">[Dev-Tips] where.not</h1>
+    <h1 class="post-title">[TechTalk] Testando com RSpec 3.2 - Parte I</h1>
     <section class="post-content">
-      <p>Geralmente, trabalhando com Rails, quando precisamos fazer uma consulta que retorne os registros com valores diferentes de um dado específico, fazemos a seguinte query:</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Article.<span class="keyword">where</span>(<span class="comment">'status <span class="xmlDocTag">&lt;&gt;</span> draft')</span></div></pre></td></tr></table></figure>
-
-<p>Outra forma de fazer a mesma consulta é utilizando o <code>where.not</code> do ActiveRecord.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Article.<span class="keyword">where</span>.<span class="keyword">not</span>(status: <span class="comment">'draft')</span></div></pre></td></tr></table></figure>
-
-<p><a href="http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods/WhereChain.html#method-i-not" target="_blank" rel="external">api</a></p>
+      <p>Pessoal, mais uma talk com o assunto de testes! Na verdade, essa foi uma de uma série de talks que eu pretendo fazer para que nosso time ganhe o hábito saudável de codar qualquer coisa acompanhada de specs que sejam legíveis e fáceis de gerenciar, de maneira consistente.</p>
+<p>Obviamente, o objetivo maior é deixar nossa suíte de testes tinindo, o que está longe da realidade. Se alcançarmos um nível decente de cobertura de testes (e como decente quero dizer cobrindo no mínimo as entidades <em>core</em> do negócio), não só estaremos documentando nosso projeto mas também passaremos a ter mais confiança em adicionar / modificar <em>features</em>.</p>
+<p>Nessa talk eu me concentrei em explicar o básico do RSpec e sugeri alguns guidelines que considero constituir passos fundamentais para se escrever bons specs em RSpec.</p>
+<p>Baixem <a href="https://s3.amazonaws.com/redealumnidevs/testing-with-rspec-parte-i.pdf" target="_blank" rel="external">aqui</a> a versão em PDF dos meus slides.</p>
+<p>Na próxima talk pretendo ir mais a fundo em testes de models e cobrir um pouco o assunto de mocks, stubs e spies. Até lá, familiarizem-se com o framework e escrevam suas specs seguindo os guidelines sugeridos na apresentação.</p>
+<p><em>For the lazy</em>:</p>
+<ul>
+<li>Use a API do model como proxy p/ escrever os specs.</li>
+<li>Use context quando puder.</li>
+<li>Evite should.</li>
+<li>Um expectation por exemplo (com exceção de specs de integração)</li>
+<li>Mesmo que use o DB, model specs ainda podem ser considerados unit specs.</li>
+</ul>
+<p>Links:</p>
+<ul>
+<li><a href="http://www.relishapp.com/rspec/rspec-core/v/3-2" target="_blank" rel="external">RSpec-Core</a></li>
+<li><a href="http://www.relishapp.com/rspec/rspec-mocks/v/3-2/docs/" target="_blank" rel="external">RSpec-Mocks</a></li>
+<li><a href="http://www.relishapp.com/rspec/rspec-expectations/v/3-2/docs/" target="_blank" rel="external">RSpec-Expectations</a></li>
+<li><a href="http://www.relishapp.com/rspec/rspec-rails/v/3-2/docs/" target="_blank" rel="external">RSpec-Rails</a></li>
+<li><a href="http://betterspecs.org/" target="_blank" rel="external">BetterSpecs</a></li>
+</ul>
+<p>P.S.: <em>Props</em> pro <a href="http://github.com/pufe" target="_blank" rel="external">@pufe</a> que chamou atenção para o comportamento dos helpers <em>let</em>. Para quem não estava presente, os helpers <em>let</em> só garantem a memoização do bloco <a href="https://gist.github.com/thiagobrandam/9444093be25b08920c2b" target="_blank" rel="external">se chamados dentro de um mesmo exemplo</a>.</p>
+<p>Happy spec’ing!</p>
 
     </section>
     <footer class="post-footer">
       <section class="author">
-  <h4>Claudia Farias</h4>
-  <p>Meu escritório é na praia.</p>
+  <h4>Thiago Brandão</h4>
+  <p>Desenvolvedor RedeAlumni</p>
   
-    <a href='http://github.com/krawdyah' title='GitHub Profile'><img src='/dev-ra/img/github.png'></a>
+    <a href='http://github.com/thiagobrandam' title='GitHub Profile'><img src='/dev-ra/img/github.png'></a>
   
   
-  
-    <a href='http://twitter.com/krawdyah' title='Twitter Profile'><img src='/dev-ra/img/twitter.png'></a>
   
 </section>
       <section class="share">
     <h4>Compartilhar</h4>
-    <a class="icon-twitter" href="http://twitter.com/share?url=http://redealumni.github.io/dev-ra/2014/12/08/where-not/"
+    <a class="icon-twitter" href="http://twitter.com/share?url=http://redealumni.github.io/dev-ra/2015/05/08/Testando-com-RSpec-Parte-I/"
        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
         <span class="hidden">Twitter</span>
     </a>
-    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://redealumni.github.io/dev-ra/2014/12/08/where-not/"
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://redealumni.github.io/dev-ra/2015/05/08/Testando-com-RSpec-Parte-I/"
        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
         <span class="hidden">Facebook</span>
     </a>
-    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://redealumni.github.io/dev-ra/2014/12/08/where-not/"
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://redealumni.github.io/dev-ra/2015/05/08/Testando-com-RSpec-Parte-I/"
        onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
         <span class="hidden">Google+</span>
     </a>
@@ -106,14 +118,14 @@
   </article>
   <nav class="pagination" role="pagination">
     
-    <a class="newer-posts" href="/dev-ra/2014/12/09/Testes-de-Unidade-101/">
-        ← [TechTalk] Testes de Unidade 101
+    <a class="newer-posts" href="/dev-ra/2015/05/13/o-bom-css/">
+        ← [TechTalk] O Bom CSS
     </a>
     
     <span class="page-number">•</span>
     
-    <a class="older-posts" href="/dev-ra/2014/12/05/git-stash/">
-        [Dev-Tips] git stash →
+    <a class="older-posts" href="/dev-ra/2014/12/09/Testes-de-Unidade-101/">
+        [TechTalk] Testes de Unidade 101 →
     </a>
     
 </nav>
